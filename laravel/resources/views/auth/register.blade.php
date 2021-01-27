@@ -11,7 +11,7 @@
                 <div class="card-body text-center">
                     <h2 class="h3 card-title text-center mt-2">ユーザー登録</h2>
 
-                    @include('error_card_list') 
+                    @include('error_card_list')
 
                     <div class="card-text">
 
@@ -35,7 +35,7 @@
                         <label for="password_confirmation">パスワード(確認)</label>
                         <input class="form-control" type="password" id="password_confirmation" name="password_confirmation" required>
                     </div>
-                    <button class="btn btn-block blue-gradient mt-2" type="submit">ユーザー登録</button>
+                    <button class="btn btn-block blue-gradient mt-2 mb-2" type="submit">ユーザー登録</button>
                     </form>
 
                     <div class="mt-0">
